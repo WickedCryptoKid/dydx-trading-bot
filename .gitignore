@@ -1,3 +1,0 @@
-# This tell git what not to push to the repositary
-.env
-venv
