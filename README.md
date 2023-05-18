@@ -1,1 +1,2 @@
 # dydx-trading-bot
+# dydxBot
