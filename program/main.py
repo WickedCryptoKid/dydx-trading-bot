@@ -18,7 +18,7 @@ if __name__=='__main__':
         client = connect_dydx()
     except Exception as e:
         print('Error connecting to client: ', e)
-        send_message(f'Failed to connect to client' {e})
+        send_message(f'Failed to connect to client {e}')
         exit(1)
     
     # Abort all open position

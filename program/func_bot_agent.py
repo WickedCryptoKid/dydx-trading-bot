@@ -197,7 +197,7 @@ class BotAgent:
                        print(order_status_close_order)
                        
                        # Send message
-                       send_message(f'Failed to execute. Check bot! Error code: 100')
+                       send_message('Failed to execute. Check bot! Error code: 100')
 
                        exit(1)
 
@@ -209,7 +209,7 @@ class BotAgent:
                   print(order_status_close_order)
 
                   # Send message
-                  send_message(f'Failed to execute. Check bot! Error code: 101')
+                  send_message('Failed to execute. Check bot! Error code: 101')
 
                   exit(1)
         else:
